@@ -7,4 +7,4 @@
 [Wedding-themed jeopardy game](http://supriyay-jeopardy.bitballoon.com/)
 
 ## LinkedIn Profile
-[Supriya Yerramilli](https://www.linkedin.com/in/supriya-yerramilli-1b284132)
+[Supriya Yerramilli](https://www.linkedin.com/in/supriya-yerramilli-1b284132/)
