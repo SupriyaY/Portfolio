@@ -1,7 +1,7 @@
 # Supriya Yerramilli
 
 ## About Me
- I am currently Web Development Immersive Student at General Assembly, graduating early 2018.  After I complete my program, I am interested in join a development team for online clothing retailer.  I intern for an Indian clothing company called insattva.com, where I create marketing content, social media posts, and blog posts.  I enjoy all things yoga, fashion, and beauty. Lets connect! &hearts;
+ I am currently Web Development Immersive Student at General Assembly, graduating early 2018.  Upon completion, I am interested in joining a development team for online clothing retailer.  I am gaining experience as intern for an online clothing company called insattva.com, where I create marketing content, social media and blog posts.  Aside from web development, my passions in life include all things yoga, fashion, and beauty. Lets connect! &hearts;
 
 ## Projects
 [Wedding-themed jeopardy game](http://supriyay-jeopardy.bitballoon.com/)
