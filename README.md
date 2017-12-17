@@ -7,6 +7,4 @@
 [Wedding-themed jeopardy game](http://supriyay-jeopardy.bitballoon.com/)
 
 ## LinkedIn Profile
-<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="supriya-yerramilli"><a class="LI-simple-link" href='https://www.linkedin.com/in/supriya-yerramilli?trk=profile-badge'>Supriya Yerramilli</a></div>
-
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+[Supriya Yerramilli](www.linkedin.com/in/supriyayerramilli)
