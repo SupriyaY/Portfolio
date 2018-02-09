@@ -4,25 +4,33 @@ body {
 
 }
 
+.statement{
+    font-family: 'Mukta Mahee',
+    sans-serif;
+    font-size: 3em;
+}
+
 
 h1 {
 font-family: 'Fredericka the Great', cursive;
 
 }
 
+i:hover{
+color: white;
+}
+
 a {
     text-decoration: none;
+    font-family: 'Fredericka the Great',
+    cursive;
+    font-size: 1em;
 
 }
 header {
 width: 100vw;
 height: 10vh;
-background: #EC6F66;
-/* fallback for old browsers */
-/* background: -webkit-linear-gradient(to top, #F3A183, #EC6F66);
-/* Chrome 10-25, Safari 5.1-6 */
-/* background: linear-gradient(to top, #F3A183, #EC6F66); */ */
-/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, #F3A183, #EC6F66);
 position: fixed;
 display: flex;
 justify-content: space-between;
@@ -38,12 +46,9 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 background-attachment: fixed;
-background: #EC6F66;
-/* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #F3A183, #EC6F66);
-/* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #F3A183, #EC6F66);
+background: linear-gradient(to right, #F3A183, #EC6F66);
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 
@@ -84,11 +89,7 @@ background-attachment: fixed;
 
 footer{
 width: 100vw;
-height: 10vh;
-background: #EC6F66;
-/* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #F3A183, #EC6F66);
-/* Chrome 10-25, Safari 5.1-6 */
+height: 20vh;
 background: linear-gradient(to top, #F3A183, #EC6F66);
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 display: flex;
@@ -99,9 +100,12 @@ align-items: center;
 .nav {
 margin-right: 10px
 
+
 }
 
 
 nav {
-    margin-right: 10px
+    margin-right: 50px;
+
+
 }
