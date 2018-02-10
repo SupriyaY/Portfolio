@@ -1,111 +1,126 @@
 body {
- margin: 0;
- padding: 0;
-
+    margin: 0;
+    padding: 0;
 }
 
-.statement{
-    font-family: 'Mukta Mahee',
-    sans-serif;
+.statement {
+    font-family: 'Mukta Mahee', sans-serif;
     font-size: 3em;
 }
 
-
 h1 {
-font-family: 'Fredericka the Great', cursive;
-
+    font-family: 'Fredericka the Great', cursive;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 
-i:hover{
-color: white;
+i:hover {
+    color: white;
+}
+
+i {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    /* justify-content: center;
+    flex-wrap: wrap; */
+    margin: 10px;
 }
 
 a {
     text-decoration: none;
-    font-family: 'Fredericka the Great',
-    cursive;
+    font-family: 'Fredericka the Great', cursive;
     font-size: 1em;
-
+    margin: 10px
 }
+
 header {
-width: 100vw;
-height: 10vh;
-background: linear-gradient(to right, #F3A183, #EC6F66);
-position: fixed;
-display: flex;
-justify-content: space-between;
-align-items: center
+    width: 100vw;
+    height: 10vh;
+    background: linear-gradient(to right, #F3A183, #EC6F66);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
 }
 
 .statement {
-height: 80vh;
-width: 100vw;
-background-size: cover;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-background-attachment: fixed;
-background: linear-gradient(to right, #F3A183, #EC6F66);
-/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background: linear-gradient(to right, #F3A183, #EC6F66);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-
-.projects{
-height: 200vh;
-width: 100vw;
-background-size: cover;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-background-attachment: fixed;
-
+.projects {
+    height: 200vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
 }
 
-.picture{
-height: 100vh;
-width: 100vw;
-background-image: url("https://i.imgur.com/hsTq4c2.jpg?1");
-background-size: cover;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-background-attachment: fixed;
+.picture {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://i.imgur.com/hsTq4c2.jpg?1");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
 }
 
-.interests{
-height: 80vh;
-width: 100vw;
-background-size: cover;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-background-attachment: fixed;
+.interests {
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
 }
 
-footer{
-width: 100vw;
-height: 20vh;
-background: linear-gradient(to top, #F3A183, #EC6F66);
-/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-display: flex;
-justify-content: center;
-align-items: center;
+footer {
+    width: 100vw;
+    height: 10vh;
+    background: linear-gradient(to top, #F3A183, #EC6F66);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.copy {
+    margin-left: 20px;
 }
 
 .nav {
-margin-right: 10px
-
-
+     /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-right: 30px;
+    margin-bottom: 10px 
 }
-
 
 nav {
     margin-right: 50px;
-
-
 }
+
+/* MEDIA */
+
+/* @media screen and (max-width: 650px) {
+    .user-container {
+        flex-direction: column;
+    }
+} */
