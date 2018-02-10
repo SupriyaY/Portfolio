@@ -3,15 +3,35 @@ body {
     padding: 0;
 }
 
-.statement {
-    font-family: 'Mukta Mahee', sans-serif;
-    font-size: 3em;
-}
+
+
+
 
 h1 {
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Fredericka the Great',cursive;
     margin-top: 30px;
     margin-left: 30px;
+}
+
+h3 {
+ font-family: 'Abel',
+ sans-serif;
+ margin-top: 0;
+
+}
+
+
+.interests p{
+  font-family: 'Abel',
+  sans-serif;
+  font-size: 3em;
+
+}
+
+
+.brand {
+    font-family: 'Abel', sans-serif;
+    font-size: 3em;
 }
 
 i:hover {
@@ -27,10 +47,19 @@ i {
     margin: 10px;
 }
 
-a {
+nav a{
+  font-size: 1.5em;
+    font-family: 'Abel',
+    sans-serif;
     text-decoration: none;
-    font-family: 'Fredericka the Great', cursive;
-    font-size: 1em;
+    color: black
+   
+}
+
+
+ a {
+    text-decoration: none;
+    font-family: 'Mukta Mahee', sans-serif;
     margin: 10px
 }
 
