@@ -5,8 +5,6 @@ body {
 
 
 
-
-
 h1 {
     font-family: 'Fredericka the Great',cursive;
     margin-top: 30px;
@@ -26,6 +24,13 @@ h3 {
   sans-serif;
   font-size: 3em;
 
+}
+
+.interests-wrapper{
+display: flex;
+flex-direction: wrap;
+justify-content: center;
+align-items: center;
 }
 
 
@@ -148,8 +153,12 @@ nav {
 
 /* MEDIA */
 
-/* @media screen and (max-width: 650px) {
-    .user-container {
+/* main page */
+/*  */
+@media screen and (max-width: 650px) {
+    .statement, picture {
         flex-direction: column;
     }
-} */
+}
+
+@media screen and (max-width)
