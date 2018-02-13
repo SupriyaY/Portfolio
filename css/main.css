@@ -20,19 +20,53 @@ h3 {
 }
 
 
-.interests p{
+.quote p{
   font-family: 'Abel',
   sans-serif;
   font-size: 3em;
 
 }
 
-.interests-wrapper{
+
+
+.quote{
+display:flex;
+align-items:center;
+justify-content: center;
+
+}
+
+.rowone-wrapper > div p {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.rowone-wrapper{
 display: flex;
 flex-direction: wrap;
 justify-content: center;
 align-items: center;
+margin: 0 40px 30px 0;
 }
+
+
+.rowtwo-wrapper {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px 20px 0;
+    
+}
+
+.rowtwo-wrapper>div p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 .brand {
@@ -177,9 +211,10 @@ nav {
 /* main page */
 /*  */
 @media screen and (max-width: 650px) {
-    .statement,  {
+    .statement {
         flex-direction: column;
     }
 }
+
 
 /* @media screen and (max-width) */
