@@ -25,25 +25,57 @@ h1 {
     text-transform: uppercase;
 }
 
-
-
 a {
     text-decoration: none;
     color: black;
 }
 
-
 i {
     color: #EC6F66;
 }
 
-i:hover{
+/* i:hover{
     color:#F3A183;
+} */
+
+@keyframes pulse_animation {
+    0% {
+        transform: scale(1);
+    }
+    30% {
+        transform: scale(1);
+    }
+    40% {
+        transform: scale(1.08);
+    }
+    50% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1);
+    }
+    70% {
+        transform: scale(1.10);
+    }
+    80% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.pulse {
+    animation-name: pulse_animation;
+    animation-duration: 5000ms;
+    transform-origin: 70% 70%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
 }
 
 .button {
-display: flex;
-justify-content: center;
-align-items: center;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
