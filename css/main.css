@@ -154,6 +154,18 @@ color: white;
     background-attachment: fixed;
 }
 
+
+
+img {
+    width: 400px;
+    height: 350px;
+    margin-bottom: 700px;
+
+}
+
+
+
+
 .picture {
     height: 100vh;
     width: 100vw;
@@ -166,6 +178,8 @@ color: white;
     background-attachment: fixed;
 }
 
+
+
 .interests {
     height: 80vh;
     width: 100vw;
@@ -176,7 +190,6 @@ color: white;
     justify-content: center;
     background-attachment: fixed;
 }
-
 
 
 footer {
@@ -214,11 +227,11 @@ nav {
 
 /* main page */
 /*  */
-@media screen and (max-width: 650px) {
+/* @media screen and (max-width: 650px) {
     .statement {
         flex-direction: column;
     }
-}
+} */
 
 
 /* @media screen and (max-width) */
