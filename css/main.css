@@ -144,7 +144,7 @@ color: white;
 
 
 .projects {
-    height: 200vh;
+    height: 170vh;
     width: 100vw;
     background-size: cover;
     display: flex;
@@ -155,14 +155,25 @@ color: white;
 }
 
 
+ .projects-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+
+
 
 img {
-    width: 400px;
-    height: 350px;
-    margin-bottom: 700px;
+    width: 450px;
+    height: 400px;
 
 }
 
+img:hover{
+opacity: .5;    
+
+}
 
 
 
@@ -181,7 +192,7 @@ img {
 
 
 .interests {
-    height: 80vh;
+    height: 60vh;
     width: 100vw;
     background-size: cover;
     display: flex;
@@ -201,9 +212,6 @@ footer {
     justify-content: space-between;
     align-items: center
 }
-
-
-
 
 
 
@@ -227,11 +235,11 @@ nav {
 
 /* main page */
 /*  */
-/* @media screen and (max-width: 650px) {
-    .statement {
+@media screen and (max-width: 650px) {
+    .statement,  {
         flex-direction: column;
     }
-} */
+}
 
 
 /* @media screen and (max-width) */
