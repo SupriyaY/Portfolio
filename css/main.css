@@ -164,7 +164,7 @@ color: white;
 
 
 .projects {
-    min-height: 200vh;
+    min-height: 130vh;
     min-width: 100vw;
     background-size: cover;
     display: flex;
@@ -175,8 +175,10 @@ color: white;
 }
 
 
- .projects-container-one {
+ .projects-container {
     display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 
