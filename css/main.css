@@ -346,6 +346,15 @@ align-items: center
       width: 300px;
   }
 
+.rowone-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 40px 30px 0;
+}
+
+
 
 
  } 
