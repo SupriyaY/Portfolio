@@ -298,8 +298,52 @@ nav {
  @media screen and (max-width: 650px) {
     .statement{ 
         flex-direction: column;
+        
     
 }
+ .brand {
+font-size: 1em;
+} 
+
+nav a{
+    font-size: 1.0em;
+    margin: 5px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+header{
+width: 100vw;
+height: 10vh;
+background: linear-gradient(to right, #F3A183, #EC6F66);
+display: flex;
+justify-content: space-between;
+align-items: center
+}
+
+.statement {
+    min-height: 80vh;
+    min-width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     background: linear-gradient(to right, #F3A183, #EC6F66);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+
+
  }
 
 @media screen and (max-width: 650px) {
