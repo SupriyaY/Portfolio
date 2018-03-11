@@ -350,7 +350,8 @@ align-items: center
 
 .picture{ 
 min-height: 50vh;
-background: url(/Users/supriyayerramilli/Fundamentals/Portfolio/img/coding.png) center, no-repeat;
+background: url("https://i.imgur.com/LHJ5LG7.png") center,
+no-repeat;
 background-size: cover;
 }
 
