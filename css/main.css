@@ -36,11 +36,19 @@ h2 {
 
 }
 
-.work{
+.work p {
      font-family: 'Abel',
      sans-serif;
      font-size: 3em;
 }
+
+
+.work {
+display:flex;
+align-items:center;
+justify-content: center;
+}
+
 
 .quote {
 display:flex;
@@ -49,7 +57,7 @@ justify-content: center;
 
 }
 
-.rowone-wrapper >div p {
+.rowone-wrapper > div p {
 display: flex;
 justify-content: center;
 align-items: center;
@@ -138,6 +146,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center
+
 }
 
 .statement {
@@ -161,7 +170,7 @@ color: white;
 
 
 .projects {
-    min-height: 130vh;
+    min-height: 200vh;
     min-width: 100vw;
     background-size: cover;
     display: flex;
@@ -192,6 +201,11 @@ color: white;
 img {
     width: 450px;
     height: 300px;
+    border: 2px solid black; 
+    border-radius: 5%;
+}  
+    img:hover {
+    opacity: .5;
 
 }
 
