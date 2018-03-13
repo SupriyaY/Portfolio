@@ -5,7 +5,14 @@ body {
     height: 100vh;
 }
 
+ol li {
+    list-style-type: none;
+     font-family: 'Abel',
+     sans-serif;
+     text-align: center;
+       font-size: 2em;
 
+}
 
 h1 {
     font-family: 'Abel',
